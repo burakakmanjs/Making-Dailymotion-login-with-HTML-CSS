@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+.navbar a:hover{
+    opacity: 0.9;
+    transition: all 0.6s;
+}
+
+.logo{
+    width: 135px;
+    margin: 10px 30px;
+}
+
+button{
+    padding: 6px 15px;
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    border-radius: 1px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.form{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    width: 250px;
+    height: 360px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+    border: 0.1px solid gray;
+    cursor: pointer;
+    opacity: 0.7;
+    padding-left: 5px;
+}
+
+h5,a{
+    margin-top: 20px;
+    text-align: right;
+    color:cyan;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.btn1{
+    width: 250px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    transform: translateY(-10px);
+    transition: all 0.6s;
+}
+
+p{
+    color: black;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+.logo1{
+    width: 250px;
+    padding-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 90%;
+    text-align: center;
+    overflow:hidden;
+}
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: -10px;
+    margin: 0 10px;
+}
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer ul li a:hover{
+    opacity: 0.9;
+    transition: all 0.6s;
+}
+.footer1{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 100%;
+}
+.footer1 ul{
+    padding-left: 230px;
+}
+
+.footer1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 18px;
+}
+
+.footer1 ul li a{
+    color: gray;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.social-bar{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.social-bar i{
+    margin-left: 30px;
+    cursor: pointer;
+}
+h4{
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
